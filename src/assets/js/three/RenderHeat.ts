@@ -1,4 +1,4 @@
-import ThreeScene from "./threeScene/index.ts";
+import ThreeScene from "./threeScene/index";
 
 import i_threeScene from "./threeScene/i_threeScene";
 import i_RenderHeat from "./i_RenderHeat"
@@ -9,5 +9,6 @@ export default class RenderHeat extends ThreeScene{
             el: options.el
         };
         super(obj)
+        //init
     }
 }

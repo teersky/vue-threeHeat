@@ -895,11 +895,6 @@
   resolved "https://registry.npm.taobao.org/@types/color-name/download/@types/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
   integrity sha1-HBJhu+qhCoBVu8XYq4S3sq/IRqA=
 
-"@types/createjs-lib@*":
-  version "0.0.29"
-  resolved "https://registry.npm.taobao.org/@types/createjs-lib/download/@types/createjs-lib-0.0.29.tgz#fae82e3ba8606663b190e789cec7d9c728fc41d7"
-  integrity sha1-+uguO6hgZmOxkOeJzsfZxyj8Qdc=
-
 "@types/eslint-visitor-keys@^1.0.0":
   version "1.0.0"
   resolved "https://registry.npm.taobao.org/@types/eslint-visitor-keys/download/@types/eslint-visitor-keys-1.0.0.tgz?cache=0&sync_timestamp=1588350213985&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Feslint-visitor-keys%2Fdownload%2F%40types%2Feslint-visitor-keys-1.0.0.tgz#1ee30d79544ca84d68d4b3cdb0af4f205663dd2d"
@@ -937,13 +932,6 @@
   version "1.5.4"
   resolved "https://registry.npm.taobao.org/@types/q/download/@types/q-1.5.4.tgz#15925414e0ad2cd765bfef58842f7e26a7accb24"
   integrity sha1-FZJUFOCtLNdlv+9YhC9+JqesyyQ=
-
-"@types/tweenjs@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.npm.taobao.org/@types/tweenjs/download/@types/tweenjs-1.0.1.tgz#aa32347004ec91bb1cc6a6b3c50b24a45fdff5cd"
-  integrity sha1-qjI0cATskbscxqazxQskpF/f9c0=
-  dependencies:
-    "@types/createjs-lib" "*"
 
 "@types/webpack-env@^1.15.2":
   version "1.15.2"
@@ -7881,10 +7869,10 @@ tunnel-agent@^0.6.0:
   dependencies:
     safe-buffer "^5.0.1"
 
-tweenjs@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.npm.taobao.org/tweenjs/download/tweenjs-1.0.2.tgz#768869c4d4ba91fdb4c5ccc661969c58138555af"
-  integrity sha1-dohpxNS6kf20xczGYZacWBOFVa8=
+tween@^0.9.0:
+  version "0.9.0"
+  resolved "https://registry.npm.taobao.org/tween/download/tween-0.9.0.tgz#f856c7a9c9ab85ca9a2bc02282591aa2513a20ed"
+  integrity sha1-+FbHqcmrhcqaK8AiglkaolE6IO0=
 
 tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   version "0.14.5"

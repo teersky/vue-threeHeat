@@ -1,5 +1,5 @@
 import { Scene, PerspectiveCamera, AmbientLight, DirectionalLight, Vector3, WebGLRenderer } from "three";
-//import Tween from "tweenjs";
+import Tween from "tween";
 import i_threeScene from "./i_threeScene"
 
 export default class ThreeScene {
@@ -77,7 +77,7 @@ export default class ThreeScene {
     animate() {
         let _self = this;
         requestAnimationFrame(_self.animate.bind(this));
-       // Tween.update();
+        Tween.update();
     }
 
 }
